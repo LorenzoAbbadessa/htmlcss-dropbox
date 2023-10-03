@@ -77,7 +77,7 @@ main>h1{
     position: relative;
     top: 50px;
 }
-.caselle{
+.caselle, .operazioni_business{
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 175px;
@@ -129,12 +129,30 @@ i{
     width: 60%;
 }
 .scritte_partner{
+    width: 30%;
+    padding-top: 150px;
+    padding: 25px;
+}
+.bordato{
+    border: solid grey 2px;
+    padding: 9px;
+    text-decoration: none;
+    color: grey;
+}
+.contenitore_operazioni{
     display: flex;
     flex-direction: column;
-    width: 45%;
-    background-color: yellow;
-    padding-top: 150px;
 }
-.scritte_partner>h4{
-    background-color: red;
+.contenitore_operazioni_minore{
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+}
+.contenitore_operazioni_minore>div{
+    width: 33%;
+    margin: 25px;
+}
+.sezione_quadra>img{
+    width: 100%;
+    margin-top: 0px;
 }
