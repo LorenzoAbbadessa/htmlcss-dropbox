@@ -77,26 +77,64 @@ main>h1{
     position: relative;
     top: 50px;
 }
-section{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 200px;
+.caselle{
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 175px;
 }
-    
-section>div{
-    width: 33%;
-    border: solid grey 1px;
+.titolo{
+    text-align: left;
+    font-size: 3em;
+}
+.quadri{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.quadri>div{
+    height: 700px;
+    width: 30%;
+    border: solid black 1px;
+}
+.quadro{
+    margin-top: 50px;
+    border: solid black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.singolo{
+    text-align: center;
+    list-style: none;
+}
+i{
+    padding: 5px;
+}
+#inizia2{
+    color: white;
+    background-color: #0061ff;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    bottom: 85px;
+    left: 1005px;
+}
+.partner{
+    margin-top:150px;
+    display: flex;
+    justify-content: flex-start;
+}
+.partner>img{
+    width: 60%;
+}
+.scritte_partner{
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
-
+    width: 45%;
+    background-color: yellow;
+    padding-top: 150px;
 }
-div>ul{
-    list-style-type: none;
-}
-.fa-solid{
-    padding: 5px
+.scritte_partner>h4{
+    background-color: red;
 }
